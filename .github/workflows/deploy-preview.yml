@@ -2,10 +2,10 @@ on:
   push:
     branches:
       - preview
-name: 🚀 [PREV] Deploy website
+name: 🏗️ [PREV] Deploy website
 jobs:
   web-deploy:
-    name: 🎉 Deploy preview
+    name: 🏗️ Deploy preview
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
