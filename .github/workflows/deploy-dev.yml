@@ -14,3 +14,4 @@ jobs:
         server: ${{ secrets.FTP_HOST }}
         username: ${{ secrets.FTP_USER_LAB }}
         password: ${{ secrets.FTP_PASSWORD_LAB }}
+        server-dir: test-github-actions/dev/
